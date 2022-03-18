@@ -1,0 +1,159 @@
+/* reseteo de estilos en la paguina */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* cuerpo de la pagina*/
+
+body{
+    background-image: url(../img/index/background_2.jpg);
+}
+@font-face {
+    font-family: "Dunkin";
+    src: url(../font_word/OldNewspaperTypes.ttf);
+}
+
+/* contenedor general de la parte visual donde esta el juego*/
+.container{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* conedor de la parte visual */
+.container__juego{
+    background-image: url(../img/index/fondo.jpg);
+    height: 650px;
+    margin: auto;
+    width: 450px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* PARTE DONDE ELIGES REGISTRARTE O INICIAR SESSION */
+
+#container__principal{
+    text-align: center;
+}
+/* titulo del juego */
+.tittle__Game {
+    color: rgb(240, 240, 240);
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: "Dunkin";
+}
+/* contenedor de los botones de iniciar session y registro*/
+.btn__Iniciar_Sessión{
+    margin: auto;
+    text-align: center;
+}
+/* bnt de iniciar session - bnt de registrarse */
+
+.btn__Iniciar_Sessión {
+    background-color: rgb(207, 207, 207);
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 40px;
+    width: 150px;
+    font-family: "Dunkin";
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.btn__Iniciar_Sessión:hover{
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.555);
+}
+.btn__Iniciar_Sessión:focus{
+    outline: none;
+}
+
+.buttons_users{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    position: relative;
+    left: -50px;
+    top: 30px;
+    
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* parte del registro */
+#container__registrarse{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    
+}
+#container__registrarse h1{
+    text-align: center;
+    color: rgb(240, 240, 240);
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-family: "Dunkin";
+}
+/* contenedor de los labels */
+.container_label{
+    width: 120px;
+    height: auto;
+    margin-top: 33px;
+    margin-left: -50px;
+    text-align: right;
+}
+/* contenedor de los inputs */
+.container_inputs{
+    width: 240px;
+    float: right;
+    margin-top: -257px;
+}
+.label__registrarse{
+    color: rgb(239, 238, 255);
+    font-family: "Dunkin";
+    text-align: right;
+}
+.input__registrarse{
+    width: 240px;
+    height: 25px;
+    margin: 15px;
+    margin-left: 45px;
+    text-align: center;
+    background-color: rgba(145, 151, 145, 0.884);
+    border: none;
+    border-bottom: 1px solid rgba(239, 238, 255, 0.829);
+    border-radius: 12px;
+    color: rgb(239, 238, 255);
+    font-family: "Dunkin";
+}
+.input__registrarse:focus{
+    outline: none;
+    text-align: center;
+}
+.btn__enviar__Rg{
+    background-color: rgb(207, 207, 207);
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 40px;
+    width: 110px;
+    font-family: "Dunkin";
+    margin-right: 50px;
+}
+.btn__enviar__Rg:hover{
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.555);
+}
+/*///////////////////////////////////////////////////////////////////////////////////////*/
+#container__footer{
+    background-color: rgba(1, 1, 15, 0.822);
+    margin: 10px;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+.ancla__footer{
+    font-family: "Dunkin";
+    color: rgb(240,240,240);
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+}

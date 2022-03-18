@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/registro.css" />
+    <title>KiD-HELPED</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- parte principal -->
+      <div class="container__juego">
+        <h1 class="tittle__Game">KiD-HELPED</h1>
+
+        <div id="container__registrarse">
+          <h1>Registrate</h1>
+          <form action="../php/insertar.php" method="POST">
+            <div>
+              <div class="container_label">
+                <label class="label__registrarse" for="nombre">Nombres</label>
+              </div>
+              <div class="container_label">
+                <label class="label__registrarse" for="apellido"
+                  >Apellidos</label
+                >
+              </div>
+              <div class="container_label">
+                <label class="label__registrarse" for="nickName"
+                  >Nick name</label
+                >
+              </div>
+              <div class="container_label">
+                <label class="label__registrarse" for="gmail">Gmail</label>
+              </div>
+              <div class="container_label">
+                <label class="label__registrarse" for="clave">Contraseña</label>
+              </div>
+
+              <div class="container_inputs">
+                <input
+                  class="input__registrarse"
+                  type="text"
+                  name="nombre"
+                  id="nombre"
+                />
+                <input
+                  class="input__registrarse"
+                  type="text"
+                  name="apellido"
+                  id="apellido"
+                />
+                <input
+                  class="input__registrarse"
+                  type="text"
+                  name="nickname__register"
+                  id="nickname__register"
+                />
+                <input
+                  class="input__registrarse"
+                  type="text"
+                  name="gmail__register"
+                  id="gmail__register"
+                />
+
+                <input
+                  class="input__registrarse"
+                  type="text"
+                  name="clave__register"
+                  id="clave__register"
+                />
+
+                <div class="buttons_users">
+                  <input
+                    class="btn__enviar__Rg"
+                    type="submit"
+                    value="Registrar"
+                  />
+
+                  <button
+                    onclick="iniciar__session()"
+                    class="btn__Iniciar_Sessión"
+                  >
+                    Iniciar Sesión
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="btnsRL">
+                        <button onclick="iniciar__session()" class="btn__Iniciar_Sessión">Iniciar session</button>
+                    </div> -->
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/registro.js"></script>
+  </body>
+</html>

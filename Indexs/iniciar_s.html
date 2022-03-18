@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/iniciar_session.css">
+    <title>KiD-HELPED</title>
+</head>
+<body style="background-color: rgb(4, 123, 141);">
+    <div class="container">
+        <!-- parte principal -->
+        <div class="container__juego">
+
+            <h1 class="tittle__Game">KiD-HELPED</h1>
+            
+
+            <!-- parte de olvidaste tu contraseña -->
+            <div id="container__iniciar__session">
+                <h1>Inicia Sesión</h1>
+                <form id="form_container_id" action="../php/verificar.php" method="POST">
+                    <div class="container_label">
+                        <label class="label__iniciar__session" for="nickName">Nick name</label>
+                    </div>
+                    <div class="container_label">
+                        <label class="label__iniciar__session" for="clave">Contraseña</label>
+                    </div>
+                    <div class="container_inputs">
+                        <input class="input__iniciar__session" type="text" name="nickname__iniciar__session" id="nickname__iniciar__session">
+                        <input class="input__iniciar__session" type="password" name="clave__iniciar__session" id="clave__iniciar__session">
+                    </div>
+                    
+
+                    <div class="buttons_users">
+                        
+                        
+                        <input class="btn__enviar__Is" type="submit" value="Ingresar">
+                        
+                    </div>
+                </form>
+                <button onclick="registrarse()" class="btn__Registrarse">Registrarse</button>
+            </div>
+            
+            <div id="sms_alert"class="sms_alerta">Debes registrarte !</div>
+        </div>
+    </div>
+    
+    <script src="../js/iniciar_session.js"></script>
+</body>
+</html>
