@@ -1,0 +1,69 @@
+body{
+    margin: 0%;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+
+.titulo{
+    height: 400px;
+    background-image: url(./IMG/logo.jpg);
+    backdrop-filter: 4px;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0, 5);
+    background-blend-mode: darken;
+}
+.presentación{
+    float: right;
+    margin-left: 9em;
+    margin-right: 10em;
+    padding: 40px;
+    justify-content: center;
+    border: 10px rgb(185, 182, 182) solid;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+#primer{
+    font-size: 100px;
+    background-color: transparent;
+}
+#frase{
+    background-color: transparent;
+}
+.container{
+    margin-top: 20px;
+    margin-bottom: 20ex;
+    margin-left: 150px;
+
+}
+.flex-fill{
+    margin-right: 5em;
+}
+.footer{
+    background-color: rgb(29, 29, 32);
+    padding: 70px;
+    margin-top: 700px;
+}
+button{
+    color: aliceblue;
+}
+#mapa{
+    border: 1px rgb(185, 182, 182) solid;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-left: 12em;
+    margin-right: 12em;
+    padding: 40px;
+}
+.parrafo{
+    text-align: justify
+}
+.card{
+    border: 3px solid ; 
+    
+}
+.nav{
+    margin-left: 50em;
+}
