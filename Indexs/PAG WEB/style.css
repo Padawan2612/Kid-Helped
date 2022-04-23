@@ -1,0 +1,150 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+#navbarSupportedContent{
+	background color: black;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,.05);
+	min-height: 100px; 
+	
+}
+#logo{
+	max-height:100px;
+
+	max-width: 80px;
+}
+.titulo{
+	text-shadow: 1px 1px 1px  rgb(191, 199, 170), 2px 1px 1px  rgb(250, 50, 0);
+    
+}
+.navbar{
+	background-color: rgb(22, 21, 49);
+}
+#LETRAS{
+	color: azure;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#navllamada{
+	
+	font-size: large;
+	color: rgb(245, 211, 21);
+	font-weight:bolder;
+	
+	
+}
+h1{
+	font-size: 66px;
+	font-weight:600;
+	line-height: 80px;
+	color: black;
+}
+h2{
+	font-size: 45px;
+	margin-bottom: 15px;
+}
+p{
+	font-size: 18px;
+	color: #999999;
+	line-height: 1.8;
+	margin-bottom: 0;
+}
+a:hover{
+	text-decoration: none;
+}
+section{
+	padding:120px 0;
+}
+
+.bg-light-grey{
+	background-color:#6685c4e7; 
+}
+
+#imgcarrusel{
+	max-height: 90vh;
+	object-fit: cover;
+
+
+}
+.topmargin-xs{margin-top: 15px}
+.topmargin-sm{margin-top: 30px}
+.topmargin-lg{margin-top: 60px}
+
+.btn {
+	font-size: 14px;
+	padding:15px 26px;
+	min-width: 160px;
+	border-radius: 2px;
+	display: inline-block;
+}
+.btn-light{
+	background-color:rgb(69, 138, 218);
+	color: rgb(11, 11, 11);
+	border: 3px solid #f6f6f6;
+
+}
+.btn ion-icon{font-size: 14px;margin-left: 5px;}
+
+
+
+.text-dark{color: black;}
+
+
+.nav-link{color: black ;}
+.nav-link:hover{color: black;} 
+.mk{
+	min-width: : 10px;
+	max-width: : 10px; 
+}
+
+.navbar-toggler{
+	font-size: 40px;
+}
+.navbar-toggler:focus{outline:none;}
+
+#hero{
+	background-image: url("IMAGENES/psico1.jpg" );
+	background-size: cover;
+	padding-top: 90px;
+	min-height: 700px;
+	color: #ffffff;
+}
+#hero p{
+	color: black;
+}
+.content-center{
+	max-width: 800px
+	margin:0 auto 60px auto;
+	text-align: center;
+}
+.portafolio-conteiner{
+	position: relative;
+	overflow: hidden;
+	margin: 10px 0;
+	border-radius: 2px;
+}
+.portafolio-conteiner img{
+	-moz-transition: all 0.08s;
+	-webkit-transition:all 0.8s;
+	transition: all 0.08s;
+}
+.portafolio-conteiner:hover img {
+	-moz-transform:scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.portafolio-details{
+
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	z-index: 9000;
+}
+.portafolio-details h2{
+	margin-bottom: 0px;
+}
+.portafolio-details a h2,.portafolio-details a p{
+	color: white;
+}
+#aboutus p{
+	color: black;
+}

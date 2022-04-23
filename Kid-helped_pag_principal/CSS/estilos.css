@@ -114,14 +114,19 @@ body{
 }
 /*servicios*/
 .service{
-	background: #fafafa;
+	
+	background-image: url(../imagenes/fondokid.jpg);
+
 }
-.subtitle{
+.subtitle {
 	font-size: 42px;
+	
 }
-.subtitle--modifirre{
+.subtitle--modifirre {
 	text-align: center;
 	margin-bottom: 16px;
+	
+	
 
 }
 .copy__section{
@@ -235,6 +240,7 @@ body{
 }
 .testimonios{
 	background: #fafafa;
+	background-image: url(../imagenes/fondokid.jpg);
 }
 .testimonios-container{
 	display: flex;
@@ -336,5 +342,6 @@ body{
 	background: linear-gradient(180deg,#00000C 0% ,#1a1b1f 100%);
 }
 .body{
-	background-color:#6685c4e7;
+	
+	background-image: url(../imagenes/fondo1.jpg);
 }
